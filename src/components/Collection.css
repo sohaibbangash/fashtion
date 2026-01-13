@@ -60,7 +60,6 @@
   padding: 5px 10px;
 }
 
-/* Card info (stars + price) */
 .collection-card-info {
   display: flex;
   justify-content: space-between;
