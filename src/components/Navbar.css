@@ -1,0 +1,84 @@
+/* Navbar container */
+.navbar {
+  width: 100%;
+  background-color: #e3342f; /* red-600 */
+  color: rgb(5, 5, 5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  box-sizing: border-box;
+}
+
+/* Left section */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 75px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.nav-links li:hover {
+  color: #d1d5db; /* gray-300 */
+}
+
+/* Search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: black;
+  border-radius: 9999px;
+  padding: 8px 16px;
+  width: 320px;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.menu-icon,
+.search-icon {
+  color: #4b5563; /* gray-600 */
+  font-size: 18px;
+}
+
+/* Right icons */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.icon {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.icon:hover {
+  color: #ffffff; /* gray-300 */
+}

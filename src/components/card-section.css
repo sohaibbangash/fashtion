@@ -1,0 +1,84 @@
+.card-section {
+  background: red;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  color: black;
+  position: relative;   /* needed */
+  z-index: 0;
+}
+.secondary-heading{
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.para{
+  font-family:'Bruno Ace SC', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0px 80px ;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: space-evenly; /* evenly spaced */
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  width: 260px;
+  border-radius: 12px;
+  overflow: hidden; /* keeps sections clean */
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  position: relative;
+  top: -60px;
+  z-index: 2;
+  background: white; /* card base is white */
+}
+
+/* Gradient only behind image */
+.card-img-wrapper {
+  background: linear-gradient(to bottom, #ffffff, #ff0000);
+  height: 300px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Text area stays white */
+.card h3,
+.card p,
+.card-info {
+  background: white;
+  padding: 8px 10px;
+}
+
+/* Improved star style */
+.stars {
+  color: gold;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 18px;
+}

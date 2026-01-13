@@ -1,0 +1,24 @@
+.footer {
+    font-weight: bolder;
+    background: linear-gradient(to bottom, #fff 0%, #ff0000 100%);
+    color: black;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .footer-column {
+    min-width: 150px;
+    margin: 10px;
+  }
+  .footer-column h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .footer-column p {
+    margin: 5px 0;
+  }
+  .footer-brand {
+    font-style: italic;
+    align-self: flex-start;
+  }

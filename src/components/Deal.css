@@ -1,0 +1,57 @@
+.deal-section {
+  width: 97%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top right, red, white);
+  padding: 20px;
+}
+
+.deal-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+}
+
+.deal-image img {
+  width: 260px;
+  height: 400px;
+  object-fit: cover;
+    border-radius: 12px;
+}
+
+.deal-text {
+  text-align: left;
+  max-width: 500px;
+}
+
+.deal-text h1 {
+  color: red;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.deal-text p {
+  color: red;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.deal-text button {
+  background: black;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.deal-text button:hover {
+    background-color: #fff;
+    color: black;
+  transform: scale(1.05);
+}

@@ -1,0 +1,85 @@
+/* Wrapper for all collection cards */
+.collection-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  position: relative;
+  top: -60px; /* optional overlap if you add a top section */
+  background-color: #f9f9f9; /* light background for cards */
+}
+
+/* Base card styling */
+.collection-card {
+  width: 260px;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background: white;
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.collection-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Image wrapper with gradient effect */
+.collection-card-img-wrapper {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #ffffff, #ffcccc);
+}
+
+.collection-card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Card text styling */
+.collection-card h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0 5px 0;
+  background: white;
+  padding: 5px 10px;
+}
+
+.collection-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+  background: white;
+  padding: 5px 10px;
+}
+
+/* Card info (stars + price) */
+.collection-card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: white;
+}
+
+.collection-stars {
+  color: gold;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.collection-price {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+
+

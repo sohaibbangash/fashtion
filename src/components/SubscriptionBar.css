@@ -1,0 +1,42 @@
+
+.subscription-bar {
+  background-color: #f6a6a6; /* light red/pink */
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.email-input {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+  flex: 1;
+  outline: none;
+  font-size: 14px;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+.button:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+  margin-left: auto;
+}
