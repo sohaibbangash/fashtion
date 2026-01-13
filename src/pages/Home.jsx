@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Hero from '../components/Hero';
+import Hero from '../components/index';
 import Card from '../components/Card-section';
 import Brand from "../components/Brand";
 import Deal from "../components/Deal";
